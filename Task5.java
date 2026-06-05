@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Task5 {
     public static void main(String[] args) {
         // Create a Scanner object to read user input
-        Scanner scanner = new Scanner(System.class);
+        Scanner scanner = new Scanner(System.in);
         
         System.out.print("Enter first number: ");
         double num1 = scanner.nextDouble();
