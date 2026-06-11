@@ -9,15 +9,12 @@ public class Task6 {
             815, 67, 104, 58, 512, 24, 892, 894, 767, 553, 81, 379, 843, 831, 445, 742, 717,
             958, 609, 842, 451, 688, 753, 854, 685, 93, 857, 440, 380, 126, 721, 328, 753, 470, 743, 527};
 
-        // Loop through the numbers list in the order they are received
-        for (int num : numbers) {
-            // Stop the entire loop if we hit 237
-            if (num == 237) {
+        for (int num : numbers) { // Loop walang galawan, huwag daw ayusin in order         
+            if (num == 237) {// Stop pag na hit 237
                 break;
             }
             
-            // Print out only even numbers, each in a separate line
-            if (num % 2 == 0) {
+            if (num % 2 == 0) { // Print only even numbers, each in a separate line
                 System.out.println(num);
             }
         }
