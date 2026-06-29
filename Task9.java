@@ -89,7 +89,7 @@ public class Task9 {
         System.out.println("         ADDITIONAL TEST CASES          ");
         System.out.println("========================================\n");
 
-        int[] testCases = {100, 20, 7};
+        //int[] testCases = {100, 20, 7};
 
         // Test case 1
         System.out.println("Test Case 1: Numbers 100 and 20");
